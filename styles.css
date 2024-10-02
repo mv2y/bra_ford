@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* لتنسيق الكتابة من اليمين لليسار */
+}
+
+header {
+    background-color: #0033cc; /* لون خلفية الرأس */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* تأثير عند التحويم */
+}
+
+nav a:hover {
+    color: #ffcc00; /* لون عند التحويم */
+}
+
+.hero {
+    background-image: url('your-image-url.jpg'); /* صورة خلفية */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.service-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s; /* تأثير عند التحويم */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* تكبير عند التحويم */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0033cc;
+    color: white;
+}
+
+.hidden {
+    display: none; /* إخفاء عنصر */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #0033cc; /* لون الزر */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* تأثير عند التحويم */
+}
+
+button:hover {
+    background-color: #ffcc00; /* لون عند التحويم */
+}
